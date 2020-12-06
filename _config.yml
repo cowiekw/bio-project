@@ -23,6 +23,7 @@ description: This is my bioinformatics project. Comparing the way we understand 
 navbar-links:
   Home: ""
   Background:
+    - Getting started: "getstarted"
     - Disease Classification in 2020: "md-example"
     - Project Inspiration: "md-example"
   Data Sources: 
