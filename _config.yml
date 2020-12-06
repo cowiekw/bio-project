@@ -19,8 +19,6 @@ title: Disease Coherence
 # Short description of your site
 description: This is my bioinformatics project. Comparing the way we understand disease at the molecular level to the way we treat disease at the person level. 
 
-# --- Navigation bar options --- #
-
 # List of links in the navigation bar
 navbar-links:
   Home: ""
@@ -44,11 +42,9 @@ navbar-links:
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Kathryn Cowie
+  name: "Kathryn Cowie"
   email: "cowiekw@gmail.com"
-  facebook: yourfacebook
-  github: cowiekw
-  twitter: yourtwitter
+  github: "cowiekw"
   linkedin: "katecowie"
 #  stackoverflow: "users/3943160/daattali"
  
