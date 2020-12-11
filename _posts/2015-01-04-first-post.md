@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First post!
+title: Intro to Bioinformatics
+published: true
 ---
-
-This is my first post, how exciting!
+This project was created for Dr. Keith Crandall's Introduction to Bioinformatics course at the GW School of Public Health. 
