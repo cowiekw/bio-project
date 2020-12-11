@@ -11,11 +11,7 @@ In October 2020, [Dozmorokov et al](https://bmcbioinformatics.biomedcentral.com/
 ## Purpose
 
 
-~~~
-x <- 5 + 10
-print(x)
-~~~
+### String Database
 
-And here is some code with syntax highlighting
 
-### String Databsae
+### GWAS Catalog
