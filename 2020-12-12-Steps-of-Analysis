@@ -1,0 +1,49 @@
+## Project Steps
+
+Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+
+
+![GW Data Science logo](/img/gwdsp.png)
+
+## Step 1. Clean Data in R Studio 
+**A)**
+1.Open the Drug Indications R Project
+2.Inspect the MEDI HPS 2013 data. 
+3.Import it into R studio (drug_indications_data.rmd)
+4.Modify column names and view the data structure. 
+5.Export as lowercase_drug_indications_data_full.xlsx
+
+**B)**
+Summarize the numbers of drugs indicated for each unique indication. Save the output as "number_of_indications.xlsx"
+
+**Issue:** In the MEDI dataset, each row corresponds to a drug. I need to reformat the data so that, each rows is a disease. 
+
+## Step 2. Rearrange disease indications data in Python. 
+1. Using python, import pandas. 
+2. Load the file "lowercase_drug_indications_data_full.xlsx" into a pandas dataframe. 
+3. Split the dataframe into 2 subsets: One new dataframe with indications + icd codes and one with indications and drug description. 
+4. Apply the funciton groupby the to the indications+drug descripition data. Group by each unique indication (i.e. disease). Compile all of the drugs associated with that indication into one column. 
+5. Merge the grouped indication +drug data with the dataframe containing indications +icd codes. 
+6. Inspect the new dataframe. 
+7. Load the file "number_of_indications.xlsx"
+8. Merge number of indications with the dataframe. 
+9. The modified dataframe should describe:  Indication | ICD9 | Drug_Desc | Number of Indications
+
+
+## Step 3. Subset Disease Coherene Data in R 
+
+Exclude columsn that are not relevant to this analysis
+
+[merge-coherence-wide-indications.ipynb](Colab Notebook)
+
+## Step 4. Merge the revised drug indications data with the subset of disease coherence data. 
+
+Use the package fuzzy wuzzy. 
+1. Import the subset disease coherence data 
+
+## Step 5
+Revise the merged data. "disease_coherence_fuzzy_outer."
+
+Remove rows with not corresponding disease. 
+
+Manually match remaining data. 
