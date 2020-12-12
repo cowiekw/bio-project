@@ -40,3 +40,10 @@ Exclude columsn that are not relevant to this analysis
 
 Use the package fuzzy wuzzy. 
 1. Import the subset disease coherence data 
+
+## Step 5
+Revise the merged data. "disease_coherence_fuzzy_outer."
+
+Remove rows with not corresponding disease. 
+
+Manually match remaining data. 
