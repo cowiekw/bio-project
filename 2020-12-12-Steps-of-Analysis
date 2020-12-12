@@ -1,7 +1,5 @@
 ## Project Steps
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
-
 
 ![GW Data Science logo](/img/gwdsp.png)
 
@@ -32,9 +30,9 @@ Summarize the numbers of drugs indicated for each unique indication. Save the ou
 
 ## Step 3. Subset Disease Coherene Data in R 
 
-Exclude columsn that are not relevant to this analysis
+From the Disease Coherence data, exclude columns that are not relevant to this analysis. Include disease, string coherence, and string_filtered coherence. 
 
-[merge-coherence-wide-indications.ipynb](Colab Notebook)
+[View the Colab Notebook](merge-coherence-wide-indications.ipynb) to see the code. 
 
 ## Step 4. Merge the revised drug indications data with the subset of disease coherence data. 
 
